@@ -1,0 +1,25 @@
+body {
+    background-color: #2e5252;
+    background-image: url("resources/fondohogwarts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+#bienvenidos{
+    text-align: center;
+    font-family: "Colonna MT";
+    font-size: 40px;
+}
+#Pregunta{
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Colonna MT";
+    font-size: 25px;
+}
+button{
+    margin-top: 100px;
+    font-family: Verdana;
+    font-size: 20px;
+
+}
