@@ -1,20 +1,24 @@
 body{
     background-color: black ;
     background-image: url("resources/gifdubledore.gif");
-    background-position: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: left;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
 
-}
-#explicacion{
-    font-family: Calibri;
-    font-size: 20px;
-    text-align: left;
-    color: beige;
-}
 #explicacion\ 2 {
-    font-family: Verdana;
+    font-family: "Book Antiqua";
     font-size: 20px;
     text-align: center;
     color: beige;
+    margin-top: 210px;
+}
+
+a:link, a:visited{
+    color: white;
+}
+a:hover{
+    font-size: 17 px;
+}
+a:active {
+    font-weight: bold;
 }
