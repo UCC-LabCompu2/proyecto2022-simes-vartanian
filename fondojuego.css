@@ -4,3 +4,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#musica
+{
+    text-align: left;
+    color: white;
+    font-family: "Book Antiqua";
+}
+#jugador
+{
+    float: left;
+    margin-top: 300px;
+}
