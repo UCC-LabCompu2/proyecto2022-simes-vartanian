@@ -20,13 +20,12 @@ body {
     font-size: 25px;
 
 }
-a:link, a:visited{
-    color: aliceblue;
-}
-a:hover{
-    font-size: 17 px;
-}
-a:active {
-    font-weight: bold;
-}
 
+
+.boton {
+    background-color: #313173;
+    font-family: "Book Antiqua";
+    color: white;
+    border-radius: 50px;
+
+}

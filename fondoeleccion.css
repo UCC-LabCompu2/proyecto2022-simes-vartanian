@@ -3,6 +3,7 @@ body{
     background-image: url("resources/fondocomedor.jpg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 #elijamos{
     font-family: "Book Antiqua";
@@ -11,15 +12,10 @@ body{
 }
 #harry{
     font-family: "Book Antiqua";
-    text-align: left;
-    margin-top: 100px;
-    margin-left: 30px;
+
 }
 #ron{
     font-family: "Book Antiqua";
-    text-align: right;
-    margin-top: 100px;
-    margin-right: 30px;
 }
 
 a:link, a:visited{
@@ -30,4 +26,15 @@ a:hover{
 }
 a:active {
     font-weight: bold;
+}
+.columna1
+{
+    float: left;
+    width: 50%;
+}
+
+.columna2
+{
+    float: right;
+    width: 50%;
 }

@@ -1,8 +1,6 @@
 body{
     background-color: black ;
-    background-image: url("resources/gifdubledore.gif");
-    background-position: bottom;
-    background-repeat: repeat-x;
+    background-image: url("resources/fondocomedor.jpg.jpg");
 }
 
 #explicacion\ 2 {
@@ -10,15 +8,13 @@ body{
     font-size: 20px;
     text-align: center;
     color: beige;
-    margin-top: 210px;
+
 }
 
-a:link, a:visited{
+.boton {
+    background-color: #313173;
+    font-family: "Book Antiqua";
     color: white;
-}
-a:hover{
-    font-size: 17 px;
-}
-a:active {
-    font-weight: bold;
+    border-radius: 50px;
+
 }
