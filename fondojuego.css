@@ -1,0 +1,17 @@
+body{
+    background-color: #0f0f46;
+    background-image: url("resources/fondobosque.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#musica
+{
+    text-align: left;
+    color: white;
+    font-family: "Book Antiqua";
+}
+#jugador
+{
+    float: left;
+    margin-top: 300px;
+}

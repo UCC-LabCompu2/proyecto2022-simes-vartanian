@@ -1,0 +1,31 @@
+body {
+    background-color: #2e5252;
+    background-image: url("resources/fondohogwarts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+#bienvenidos{
+    text-align: center;
+    font-family: "Colonna MT";
+    font-size: 40px;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+#Pregunta{
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Colonna MT";
+    font-size: 25px;
+
+}
+
+
+.boton {
+    background-color: #313173;
+    font-family: "Book Antiqua";
+    color: white;
+    border-radius: 50px;
+
+}

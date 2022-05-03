@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    background-image: url("resources/fondocomedor.jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#elijamos{
+    font-family: "Book Antiqua";
+    text-align: center;
+
+}
+#hermione{
+    font-family: "Book Antiqua";
+
+}
+#ron{
+    font-family: "Book Antiqua";
+}
+
+a:link, a:visited{
+    color: white;
+}
+a:hover{
+    font-size: 17 px;
+}
+a:active {
+    font-weight: bold;
+}
+.columna1
+{
+    float: left;
+    width: 50%;
+}
+
+.columna2
+{
+    float: right;
+    width: 50%;
+}

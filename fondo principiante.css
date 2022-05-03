@@ -1,0 +1,20 @@
+body{
+    background-color: black ;
+    background-image: url("resources/fondocomedor.jpg.jpg");
+}
+
+#explicacion\ 2 {
+    font-family: "Book Antiqua";
+    font-size: 20px;
+    text-align: center;
+    color: beige;
+
+}
+
+.boton {
+    background-color: #313173;
+    font-family: "Book Antiqua";
+    color: white;
+    border-radius: 50px;
+
+}
