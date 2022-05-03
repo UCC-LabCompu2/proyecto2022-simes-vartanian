@@ -1,5 +1,7 @@
 # Ayudemos a Hogwartz
-Bienvenidos al Mundo Magico!! En esta pagina poremos ayudar a Harry Potter a salvar su hogar.  
+Bienvenidos al Mundo Magico!! En esta pagina podremos ayudar a Harry Potter a salvar su hogar. ¿Estan listos para vivir esta aventura?
+
+Somos 2 alumanas de la Universidad Catolica de Cordoba, y nuestro proyecto corresponde a la materia Laboratorio de Computacion 2022.
 
 ## Autores: 
  **Manuela Simes - Maria Paz Vartanian**
