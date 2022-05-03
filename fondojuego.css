@@ -15,3 +15,11 @@ body{
     float: left;
     margin-top: 300px;
 }
+.boton
+{
+    float: right;
+    background-color: #313173;
+    font-family: "Book Antiqua";
+    color: white;
+    border-radius: 50px;
+}
