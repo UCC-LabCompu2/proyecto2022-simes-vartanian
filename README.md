@@ -10,7 +10,7 @@ Somos 2 alumanas de la Universidad Catolica de Cordoba, y nuestro proyecto corre
  *HTML 5
  *CSS3
 
- ##Link de gh-pages 
+ ## Link de gh-pages 
 https://ucc-labcompu2.github.io/proyecto2022-simes-vartanian/
 
 
