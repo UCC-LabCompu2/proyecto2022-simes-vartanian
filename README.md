@@ -1,5 +1,20 @@
-# proyecto2022
-Estructura de Proyecto Lab de Compu II - 2022
+# Ayudemos a Hogwartz
+Bienvenidos al Mundo Magico!! En esta pagina podremos ayudar a Harry Potter a salvar su hogar. ¿Estan listos para vivir esta aventura?
+
+Somos 2 alumanas de la Universidad Catolica de Cordoba, y nuestro proyecto corresponde a la materia Laboratorio de Computacion 2022.
+
+## Autores: 
+ **Manuela Simes - Maria Paz Vartanian**
+
+ ## Tecnologias Usadas. 
+ *HTML 5
+ *CSS3
+
+ ##Link de gh-pages 
+https://ucc-labcompu2.github.io/proyecto2022-simes-vartanian/
+
+
+
 
 ## Requisitos del Primer Parcial
 
