@@ -1,5 +1,17 @@
-# proyecto2022
-Estructura de Proyecto Lab de Compu II - 2022
+# Ayudemos a Hogwartz
+Bienvenidos al Mundo Magico!! En esta pagina poremos ayudar a Harry Potter a salvar su hogar.  
+
+## Autores: 
+ **Manuela Simes - Maria Paz Vartanian**
+
+ ## Tecnologias Usadas. 
+ *HTML 5
+ *CSS3
+
+ 
+
+
+
 
 ## Requisitos del Primer Parcial
 
