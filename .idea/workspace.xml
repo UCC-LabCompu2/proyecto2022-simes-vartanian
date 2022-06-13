@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/Juego.html" beforeDir="false" afterPath="$PROJECT_DIR$/Juego.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fondojuego.css" beforeDir="false" afterPath="$PROJECT_DIR$/fondojuego.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/escoba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/escobita.png.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/escobita.png.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,8 @@
       <workItem from="1651627489946" duration="1287000" />
       <workItem from="1651670337626" duration="617000" />
       <workItem from="1652268514296" duration="132000" />
-      <workItem from="1655128523643" duration="5169000" />
+      <workItem from="1655128523643" duration="5466000" />
+      <workItem from="1655143486436" duration="6088000" />
     </task>
     <servers />
   </component>

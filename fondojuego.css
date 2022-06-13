@@ -11,61 +11,49 @@ body{
 }
 
 .contenedor {
-    width: 1000px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
 
     position: relative;
 
-    background: linear-gradient(#b7d6c7, transparent) #ffe2d1;/linear-gradient(#90ebff, white);/
+    background: linear-gradient(#313173, transparent) #2e5252;/linear-gradient(#313173, blue);/
 transition: background-color 1s linear;
     overflow: hidden;
 }
 
-.mediodia {
-    background-color: #ffdcf3;
-}
-
-.tarde {
-    background-color: #ffadad;
-}
-
-.noche {
-    background-color: #aca8c7;
-}
 
 .dino {
-    width: 84px;
-    height: 84px;
+    width: 400px;
+    height: 100px;
 
     position: absolute;
-    bottom: 22px;
+    bottom: 10px;
     left: 42px;
     z-index: 2;
 
-    background: url(resources/escobita.png.png) repeat-x 0px 0px;
+    background: url(resources/escoba3.png) no-repeat;
     background-size: 336px 84px;
     background-position-x: 0px;
 
+
 }
 
-.dino-corriendo {
-    animation: animarDino 0.25s steps(2) infinite;
-}
+
 .dino-estrellado {
     background-position-x: -252px;
 }
 
 .suelo {
     width: 200%;
-    height: 42px;
+    height: 60px;
 
     position: absolute;
     bottom: 0;
     left: 0;
 
-    background: url(img/suelo.png) repeat-x 0px 0px;
-    background-size: 50% 42px;
+    background: url(resources/suelo.png) repeat-x 0px 0px;
+    background-size: 50% 60px;
 
 }
 
@@ -124,7 +112,7 @@ transition: background-color 1s linear;
     text-align: center;
     color: #7e928b;
     font-size: 30px;
-    font-family: Verdana;
+    font-family: "Colonna MT";
     font-weight: 700;
 }
 
