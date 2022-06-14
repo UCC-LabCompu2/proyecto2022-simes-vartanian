@@ -80,7 +80,7 @@ class Jugador {
 
     Draw () {
         ctx.beginPath();
-        ctx.drawImage(escoba,this.x-40,this.y,this.w+100,this.h);
+        ctx.drawImage(escoba,this.x+30,this.y-60,100,100);
         ctx.closePath();
     }
 }
