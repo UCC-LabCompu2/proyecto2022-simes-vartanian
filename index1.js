@@ -8,6 +8,10 @@ let puntajealto;
 let puntajealtoText;
 let jugador;
 let gravedad;
+var escoba = new Image ();
+escoba.src = "resources/escoba4.png";
+const dementor = new Image ();
+dementor.src = "resources/dementor.png"
 let obstaculos = [];
 let juegoVelocidad;
 let keys = {};
@@ -76,8 +80,7 @@ class Jugador {
 
     Draw () {
         ctx.beginPath();
-        ctx.fillStyle = this.c;
-        ctx.fillRect(this.x, this.y, this.w, this.h);
+        ctx.drawImage(escoba,this.x-40,this.y,this.w+100,this.h);
         ctx.closePath();
     }
 }
@@ -101,8 +104,7 @@ class Obstaculo {
 
     Draw () {
         ctx.beginPath();
-        ctx.fillStyle = this.c;
-        ctx.fillRect(this.x, this.y, this.w, this.h);
+        ctx.drawImage(dementor,this.x-18,this.y,this.w+30,this.h);
         ctx.closePath();
     }
 }
@@ -120,7 +122,7 @@ class Text {
     Draw () {
         ctx.beginPath();
         ctx.fillStyle = this.c;
-        ctx.font = this.s + "px sans-serif";
+        ctx.font = this.s + "Book Antiqua";
         ctx.textAlign = this.a;
         ctx.fillText(this.t, this.x, this.y);
         ctx.closePath();
@@ -129,9 +131,9 @@ class Text {
 
 // Game Functions
 function SpawnObstaculo () {
-    let size = RandomIntInRange(20, 70);
+    let size = RandomIntInRange(70, 100);
     let type = RandomIntInRange(0, 1);
-    let obstaculo = new Obstaculo(canvas.width + size, canvas.height - size, size, size, '#2484E4');
+    let obstaculo = new Obstaculo(canvas.width + size, canvas.height - size, size-50, size, '#2484E4');
 
     if (type == 1) {
         obstaculo.y -= jugador.originalHeight - 10;
@@ -165,7 +167,7 @@ function Start () {
     jugador = new Jugador(25, 0, 50, 50, '#FF5858');
 
     puntajeText = new Text("Puntaje: " + puntaje, 25, 25, "left", "#FF5858", "20");
-    PuntajealtoText = new Text("Puntaje mas alto: " + puntajealto, canvas.width - 25, 25, "right", "#FF5858", "20");
+    puntajealtoText = new Text("Puntaje mas alto: " + puntajealto, canvas.width - 25, 25, "right", "#FF5858", "20");
 
     requestAnimationFrame(Update);
 }
@@ -201,6 +203,7 @@ function Update () {
             jugador.y < o.y + o.h &&
             jugador.y + jugador.h > o.y
         ) {
+            alert("¡Lo sentimos Mago pero el dementor te ha alcanzado, mejor suerte la proxima!")
             obstaculos = [];
             puntaje = 0;
             spawnTimer = initialSpawnTimer;

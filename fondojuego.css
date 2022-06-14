@@ -11,19 +11,11 @@ body{
     background-image: url("resources/fondobosque.jpg");
     background-size: cover;
 }
-
-
-
-.suelo {
-    width: 200%;
-    height: 42px;
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-    background: url(resources/suelo.png) repeat-x 0px 0px;
-    background-size: 50% 60px;
-
+.ayuda{
+    float: right;
+    font-family: "Colonna MT";
+    font-size: 20px;
+    margin-top: 20px;
 }
+
 
