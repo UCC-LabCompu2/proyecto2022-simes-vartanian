@@ -16,7 +16,7 @@ let obstaculos = [];
 let juegoVelocidad;
 let keys = {};
 
-// Hay q hacer los Event Listeners aca
+// Event Listeners aca
 document.addEventListener('keydown', function (evt) {
     keys[evt.code] = true;
 });
@@ -129,7 +129,7 @@ class Text {
     }
 }
 
-// Game Functions
+// Game Functions con el objetivo de la generacion de los obstaculos (dementores) que debera esquivar el jugador
 function SpawnObstaculo () {
     let size = RandomIntInRange(70, 100);
     let type = RandomIntInRange(0, 1);
@@ -141,11 +141,12 @@ function SpawnObstaculo () {
     obstaculos.push(obstaculo);
 }
 
-
+// generacion de numero aleatorio (funcion random)
 function RandomIntInRange (min, max) {
     return Math.round(Math.random() * (max - min) + min);
 }
 
+// funcion que inicia el juego
 function Start () {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -166,14 +167,17 @@ function Start () {
 
     jugador = new Jugador(25, 0, 50, 50, '#FF5858');
 
-    puntajeText = new Text("Puntaje: " + puntaje, 25, 25, "left", "#FF5858", "20");
-    puntajealtoText = new Text("Puntaje mas alto: " + puntajealto, canvas.width - 25, 25, "right", "#FF5858", "20");
+    puntajeText = new Text("Puntos: " + puntaje, 25, 25, "left", "#FF5858", "20");
+    puntajealtoText = new Text("Mayor cantidad puntos logrados: " + puntajealto, canvas.width - 70, 25, "right", "#FF5858", "20");
 
     requestAnimationFrame(Update);
 }
 
 let initialSpawnTimer = 200;
 let spawnTimer = initialSpawnTimer;
+
+//Esta funcion Update lo que hace es volver a pintar el Canvas por cada frame, maneja en cuanto los obstaculos sus spawn y colision.
+
 function Update () {
     requestAnimationFrame(Update);
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -231,3 +235,10 @@ function Update () {
 }
 
 Start();
+
+//funcion para que el boton te vuelva a la pagina principal
+
+function IrPP ()
+{
+    location.href="index.html";
+}

@@ -4,7 +4,7 @@ body{
 }
 
 #explicacion\ 2 {
-    font-family: "Book Antiqua";
+    font-family: "Book Antiqua", serif;
     font-size: 20px;
     text-align: center;
     color: beige;
@@ -13,7 +13,7 @@ body{
 
 .boton {
     background-color: #313173;
-    font-family: "Book Antiqua";
+    font-family: "Book Antiqua", serif;
     color: white;
     border-radius: 50px;
 

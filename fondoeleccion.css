@@ -6,23 +6,23 @@ body{
     text-align: center;
 }
 #elijamos{
-    font-family: "Book Antiqua";
+    font-family: "Book Antiqua", serif;
     text-align: center;
 
 }
 #hermione{
-    font-family: "Book Antiqua";
+    font-family: "Book Antiqua", serif;
 
 }
 #ron{
-    font-family: "Book Antiqua";
+    font-family: "Book Antiqua", serif;
 }
 
 a:link, a:visited{
     color: white;
 }
 a:hover{
-    font-size: 17 px;
+    font-size: 17px;
 }
 a:active {
     font-weight: bold;

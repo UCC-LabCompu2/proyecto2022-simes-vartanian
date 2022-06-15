@@ -11,11 +11,13 @@ body{
     background-image: url("resources/fondobosque.jpg");
     background-size: cover;
 }
-.ayuda{
-    float: right;
-    font-family: "Colonna MT";
-    font-size: 20px;
-    margin-top: 20px;
+
+.boton {
+    margin-top: 10px;
+    background-color: #313173;
+    font-family: "Book Antiqua", serif;
+    color: white;
+    border-radius: 50px;
 }
 
 
